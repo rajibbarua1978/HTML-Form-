@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Enquiry Form</legend>
+    <form action="" method=""><br>
+
+    <label for="">Gender</label><br>
+    <input type="radio" value="male" name="gender"> Male
+    <input type="radio" value="female" name="gender"> Female
+    
+    <br>
+
+    <label for="">Name</label><br>
+    <input type="text" pattern="[a-zA-Z ]{3,40}" placeholder="Enter Your name" name="uname"><br>
+
+    <label for="">Course</label><br>
+    <input type="checkbox" value="php"> PHP
+    <input type="checkbox" value="java"> JAVA
+    <input type="checkbox" value="c"> C
+    <input type="checkbox" value="c++"> C++
+    <br>
+
+
+    <label for="">Email</label><br>
+    <input type="email" placeholder="Enter Your Email" name="uemail"><br>
+
+    <label for="">Phone</label><br>
+    <input type="tel" pattern="[0-9]{10}" title="Enter the valid phone number with 10 digits." placeholder="Enter Your Phone" name="uphone"><br>
+
+    <label for="">Message</label><br>
+    <textarea name="" id=""></textarea><br>
+
+    <label for="">Photo</label><br>
+    <input type="file"><br>
+
+
+    <label for="">Password</label><br>
+    <input type="password"><br>
+
+    <label for="">Country</label><br>
+    <select name="" id="">
+        <option value="">....Select Country....</option>
+        <option value="India">India</option>
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="Nepal">Nepal</option>
+        <option value="Bhutan">Bhutan</option>
+        <option value="Srilanka">Srilanka</option>
+        <option value="Pakistan">Pakistan</option>
+    </select>
+    <br>
+
+    <label for="">Course</label>
+    <select name="" id="">
+        <optgroup label="Frontend">
+            <option value="">HTML</option>
+              <option value="">CSS</option>
+                <option value="">Javascript</option>
+                  <option value="">Bootstrap</option>
+                    <option value="">Tailwind</option>
+        </optgroup>
+        <optgroup label="Backend">
+            <option value="">PHP</option>
+              <option value="">Laravel</option>
+                <option value="">Database</option>
+                  <option value="">Firebase</option>
+                    <option value="">Mysql</option>
+        </optgroup>
+    </select><br>
+
+    <button type="submit">submit</button>
+    <input type="submit" value="go">
+
+    </form>
+    </fieldset>
+</body>
+</html>
